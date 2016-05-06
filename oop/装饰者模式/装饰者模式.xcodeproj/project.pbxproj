@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373D138E1BE748000043087B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D138D1BE748000043087B /* AppDelegate.swift */; };
+		373D13901BE748000043087B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D138F1BE748000043087B /* ViewController.swift */; };
+		373D13931BE748000043087B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373D13911BE748000043087B /* Main.storyboard */; };
+		373D13951BE748000043087B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373D13941BE748000043087B /* Assets.xcassets */; };
+		373D13981BE748000043087B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373D13961BE748000043087B /* LaunchScreen.storyboard */; };
+		373D13A01BE748310043087B /* beverageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D139F1BE748310043087B /* beverageFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		373D138A1BE748000043087B /* 装饰者模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "装饰者模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		373D138D1BE748000043087B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		373D138F1BE748000043087B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		373D13921BE748000043087B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373D13941BE748000043087B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373D13971BE748000043087B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		373D13991BE748000043087B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373D139F1BE748310043087B /* beverageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beverageFile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373D13871BE748000043087B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373D13811BE748000043087B = {
+			isa = PBXGroup;
+			children = (
+				373D138C1BE748000043087B /* 装饰者模式 */,
+				373D138B1BE748000043087B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373D138B1BE748000043087B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373D138A1BE748000043087B /* 装饰者模式.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373D138C1BE748000043087B /* 装饰者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				373D138D1BE748000043087B /* AppDelegate.swift */,
+				373D138F1BE748000043087B /* ViewController.swift */,
+				373D13911BE748000043087B /* Main.storyboard */,
+				373D13941BE748000043087B /* Assets.xcassets */,
+				373D13961BE748000043087B /* LaunchScreen.storyboard */,
+				373D13991BE748000043087B /* Info.plist */,
+				373D139F1BE748310043087B /* beverageFile.swift */,
+			);
+			path = "装饰者模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373D13891BE748000043087B /* 装饰者模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373D139C1BE748000043087B /* Build configuration list for PBXNativeTarget "装饰者模式" */;
+			buildPhases = (
+				373D13861BE748000043087B /* Sources */,
+				373D13871BE748000043087B /* Frameworks */,
+				373D13881BE748000043087B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "装饰者模式";
+			productName = "装饰者模式";
+			productReference = 373D138A1BE748000043087B /* 装饰者模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373D13821BE748000043087B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = gzq;
+				TargetAttributes = {
+					373D13891BE748000043087B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = CH2N7ASHMG;
+					};
+				};
+			};
+			buildConfigurationList = 373D13851BE748000043087B /* Build configuration list for PBXProject "装饰者模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373D13811BE748000043087B;
+			productRefGroup = 373D138B1BE748000043087B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373D13891BE748000043087B /* 装饰者模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373D13881BE748000043087B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373D13981BE748000043087B /* LaunchScreen.storyboard in Resources */,
+				373D13951BE748000043087B /* Assets.xcassets in Resources */,
+				373D13931BE748000043087B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373D13861BE748000043087B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373D13901BE748000043087B /* ViewController.swift in Sources */,
+				373D13A01BE748310043087B /* beverageFile.swift in Sources */,
+				373D138E1BE748000043087B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		373D13911BE748000043087B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373D13921BE748000043087B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		373D13961BE748000043087B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373D13971BE748000043087B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373D139A1BE748000043087B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		373D139B1BE748000043087B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373D139D1BE748000043087B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "装饰者模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gzq.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		373D139E1BE748000043087B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "装饰者模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gzq.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373D13851BE748000043087B /* Build configuration list for PBXProject "装饰者模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373D139A1BE748000043087B /* Debug */,
+				373D139B1BE748000043087B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373D139C1BE748000043087B /* Build configuration list for PBXNativeTarget "装饰者模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373D139D1BE748000043087B /* Debug */,
+				373D139E1BE748000043087B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373D13821BE748000043087B /* Project object */;
+}
